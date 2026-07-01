@@ -1,0 +1,32 @@
+{
+  "wroclaw": [
+    {
+      "name": "Przedmieście",
+      "deal": "Beer 2-for-1",
+      "hours": "16:00–18:00",
+      "address": "ul. Świdnicka 8, Wrocław",
+      "mapsUrl": "https://maps.google.com/?q=Przedmieście+Wrocław"
+    },
+    {
+      "name": "Klub Mleczarnia",
+      "deal": "50% off cocktails",
+      "hours": "17:00–19:00",
+      "address": "ul. Włodkowica 5, Wrocław",
+      "mapsUrl": "https://maps.google.com/?q=Mleczarnia+Wrocław"
+    },
+    {
+      "name": "Kontynuacja",
+      "deal": "Draft beer 8 PLN",
+      "hours": "15:00–17:00",
+      "address": "ul. Ruska 51, Wrocław",
+      "mapsUrl": "https://maps.google.com/?q=Kontynuacja+Wrocław"
+    },
+    {
+      "name": "Rozrywka",
+      "deal": "Wine half price",
+      "hours": "18:00–20:00",
+      "address": "ul. Świdnicka 38, Wrocław",
+      "mapsUrl": "https://maps.google.com/?q=Rozrywka+Wrocław"
+    }
+  ]
+}
