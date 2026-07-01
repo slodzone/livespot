@@ -1,0 +1,17 @@
+{
+  "wroclaw": {
+    "today": "19:41",
+    "goldenHourStart": "18:55",
+    "blueHourEnd": "20:10",
+    "spots": [
+      "Most Grunwaldzki Bridge",
+      "Wyspa Słodowa",
+      "Ostrów Tumski",
+      "Sky Tower viewpoint"
+    ],
+    "conditions": {
+      "cloudCoverage": "low",
+      "visibility": "good"
+    }
+  }
+}
