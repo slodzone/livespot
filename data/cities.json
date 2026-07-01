@@ -1,0 +1,9 @@
+{
+  "wroclaw": {
+    "id": "wroclaw",
+    "name": "Wrocław",
+    "lat": 51.1079,
+    "lon": 17.0385,
+    "timezone": "Europe/Warsaw"
+  }
+}
