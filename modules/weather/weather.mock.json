@@ -1,0 +1,9 @@
+{
+  "wroclaw": {
+    "temp": 18,
+    "feelsLike": 17,
+    "rain": false,
+    "windKph": 12,
+    "description": "Partly cloudy"
+  }
+}
