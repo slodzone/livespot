@@ -1,0 +1,21 @@
+{
+  "wroclaw": {
+    "status": "disruption",
+    "summary": "Tram delays on line 1 and 7",
+    "alerts": [
+      {
+        "line": "1",
+        "type": "Tram",
+        "message": "Delays up to 8 min — roadworks on ul. Świdnicka",
+        "severity": "medium"
+      },
+      {
+        "line": "7",
+        "type": "Tram",
+        "message": "Delays up to 5 min — heavy traffic near Rynek",
+        "severity": "low"
+      }
+    ],
+    "tip": "Consider walking or cycling for short trips"
+  }
+}
