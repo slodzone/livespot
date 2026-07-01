@@ -1,0 +1,60 @@
+{
+  "wroclaw": [
+    {
+      "name": "Wyspa Słodowa",
+      "tagline": "Best riverside chill spot in the city",
+      "category": "Park",
+      "tip": "Bring a blanket and grab a beer from the nearby kiosk",
+      "bestTime": "Late afternoon",
+      "mapsUrl": "https://maps.google.com/?q=Wyspa+Słodowa+Wrocław"
+    },
+    {
+      "name": "Ostrów Tumski",
+      "tagline": "Wrocław's oldest island — magical at dusk",
+      "category": "Historic",
+      "tip": "Walk across the Cathedral Bridge at sunset for the best view",
+      "bestTime": "Evening",
+      "mapsUrl": "https://maps.google.com/?q=Ostrów+Tumski+Wrocław"
+    },
+    {
+      "name": "Most Grunwaldzki",
+      "tagline": "Iconic suspension bridge with panoramic views",
+      "category": "Viewpoint",
+      "tip": "Stand in the middle for the full city skyline",
+      "bestTime": "Golden hour",
+      "mapsUrl": "https://maps.google.com/?q=Most+Grunwaldzki+Wrocław"
+    },
+    {
+      "name": "Hala Targowa",
+      "tagline": "Historic market hall full of local life",
+      "category": "Market",
+      "tip": "Try the local bread and cheese stalls near the entrance",
+      "bestTime": "Morning",
+      "mapsUrl": "https://maps.google.com/?q=Hala+Targowa+Wrocław"
+    },
+    {
+      "name": "Plac Nowy Targ",
+      "tagline": "Quiet square away from the tourist crowds",
+      "category": "Square",
+      "tip": "Great coffee at the café on the north corner",
+      "bestTime": "Anytime",
+      "mapsUrl": "https://maps.google.com/?q=Plac+Nowy+Targ+Wrocław"
+    },
+    {
+      "name": "Góra Donas",
+      "tagline": "Hidden hilltop with a view over the whole city",
+      "category": "Viewpoint",
+      "tip": "Short walk from the tram stop — worth every step",
+      "bestTime": "Sunset",
+      "mapsUrl": "https://maps.google.com/?q=Góra+Donas+Wrocław"
+    },
+    {
+      "name": "Rynek Underground Museum",
+      "tagline": "Medieval Wrocław beneath your feet",
+      "category": "Museum",
+      "tip": "Buy tickets online to skip the queue",
+      "bestTime": "Rainy day",
+      "mapsUrl": "https://maps.google.com/?q=Muzeum+Miejskie+Wrocław"
+    }
+  ]
+}
