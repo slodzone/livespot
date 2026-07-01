@@ -31,6 +31,7 @@ function createTile(mod, summary) {
   tile.className = "tile";
   tile.setAttribute("type", "button");
   tile.setAttribute("aria-label", mod.title);
+  tile.setAttribute("data-id", mod.id);
 
   tile.innerHTML = `
     <span class="tile-icon">${mod.icon}</span>
