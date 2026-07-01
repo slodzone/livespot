@@ -1,0 +1,36 @@
+{
+  "wroclaw": [
+    {
+      "title": "Jazz at Piwnica Świdnicka",
+      "category": "Music",
+      "time": "20:00",
+      "place": "Piwnica Świdnicka, Rynek 1",
+      "price": "Free entry",
+      "mapsUrl": "https://maps.google.com/?q=Piwnica+Świdnicka+Wrocław"
+    },
+    {
+      "title": "Open Air Cinema",
+      "category": "Film",
+      "time": "21:30",
+      "place": "Wyspa Słodowa",
+      "price": "Free",
+      "mapsUrl": "https://maps.google.com/?q=Wyspa+Słodowa+Wrocław"
+    },
+    {
+      "title": "Street Food Festival",
+      "category": "Food",
+      "time": "12:00",
+      "place": "Plac Solny",
+      "price": "Free entry",
+      "mapsUrl": "https://maps.google.com/?q=Plac+Solny+Wrocław"
+    },
+    {
+      "title": "Photography Exhibition",
+      "category": "Art",
+      "time": "10:00",
+      "place": "Galeria Sztuki, ul. Świdnicka 2",
+      "price": "10 PLN",
+      "mapsUrl": "https://maps.google.com/?q=Galeria+Sztuki+Wrocław"
+    }
+  ]
+}
