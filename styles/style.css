@@ -80,6 +80,7 @@ body {
   flex-direction: column;
   gap: 10px;
   min-height: 140px;
+  color: var(--text-primary);
 }
 
 .tile:hover,
