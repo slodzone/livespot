@@ -5,40 +5,40 @@
       "deal": "All cocktails 30 PLN",
       "hours": "17:00-20:00",
       "days": "Sun-Thu",
-      "address": "ul. Rzeźnicza 32/33, Wrocław",
-      "mapsUrl": "https://maps.google.com/?q=Papa+Bar+Wrocław+Rzeźnicza"
+      "address": "ul. Rzeznicza 32/33, Wroclaw",
+      "mapsUrl": "https://maps.google.com/?q=Papa+Bar+Wroclaw"
     },
     {
       "name": "Texico",
-      "deal": "Burger + fries + Cola — 27.99 PLN",
+      "deal": "Burger + fries + Cola 27.99 PLN",
       "hours": "15:00-18:00",
       "days": "Tue-Fri",
-      "address": "ul. Świdnicka 19, Wrocław",
-      "mapsUrl": "https://maps.google.com/?q=Texico+Wrocław"
+      "address": "ul. Swidnicka 19, Wroclaw",
+      "mapsUrl": "https://maps.google.com/?q=Texico+Wroclaw"
     },
     {
       "name": "Czupito",
       "deal": "2 shots for the price of 1",
       "hours": "16:00-20:00",
       "days": "Tue only",
-      "address": "ul. Ruska 51, Wrocław",
-      "mapsUrl": "https://maps.google.com/?q=Czupito+Wrocław+Ruska"
+      "address": "ul. Ruska 51, Wroclaw",
+      "mapsUrl": "https://maps.google.com/?q=Czupito+Wroclaw+Ruska"
     },
     {
-      "name": "Przybij Piątaka",
+      "name": "Przybij Piataka",
       "deal": "Daily drink promotions",
       "hours": "15:00-18:00",
       "days": "Daily",
-      "address": "Rynek 13, Wrocław",
-      "mapsUrl": "https://maps.google.com/?q=Przybij+Piątaka+Wrocław+Rynek"
+      "address": "Rynek 13, Wroclaw",
+      "mapsUrl": "https://maps.google.com/?q=Przybij+Piataka+Wroclaw+Rynek"
     },
     {
       "name": "Kontynuacja",
       "deal": "Best craft beer in the city",
       "hours": "15:00-23:00",
       "days": "Daily",
-      "address": "ul. Ofiar Oświęcimskich 17, Wrocław",
-      "mapsUrl": "https://maps.google.com/?q=Kontynuacja+Wrocław"
+      "address": "ul. Ofiar Oswiecimskich 17, Wroclaw",
+      "mapsUrl": "https://maps.google.com/?q=Kontynuacja+Wroclaw"
     }
   ]
 }
