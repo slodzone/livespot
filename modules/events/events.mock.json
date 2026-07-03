@@ -1,36 +1,49 @@
 {
   "wroclaw": [
     {
-      "title": "Jazz at Piwnica Świdnicka",
-      "category": "Music",
+      "title": "Chopin & Friends — Piano Concert",
+      "category": "Classical Music",
+      "time": "17:00",
+      "place": "Katedra Marii Magdaleny",
+      "price": "60 PLN",
+      "mapsUrl": "https://maps.google.com/?q=Katedra+Marii+Magdaleny+Wrocław",
+      "url": "https://wroclaw.atrakcje.pl"
+    },
+    {
+      "title": "Koncert fortepianowy przy świecach",
+      "category": "Concert",
+      "time": "18:30",
+      "place": "Kino Nowe Horyzonty",
+      "price": "79 PLN",
+      "mapsUrl": "https://maps.google.com/?q=Kino+Nowe+Horyzonty+Wrocław",
+      "url": "https://wroclaw.atrakcje.pl"
+    },
+    {
+      "title": "Wieczory w Arsenale — Chamber Music Festival",
+      "category": "Festival",
       "time": "20:00",
-      "place": "Piwnica Świdnicka, Rynek 1",
+      "place": "Arsenał Miejski, ul. Cieszyńskiego 9",
+      "price": "48 PLN",
+      "mapsUrl": "https://maps.google.com/?q=Arsenał+Miejski+Wrocław",
+      "url": "https://strefakultury.pl"
+    },
+    {
+      "title": "Teatr Muzyczny Capitol",
+      "category": "Theatre",
+      "time": "20:00",
+      "place": "Teatr Muzyczny Capitol, ul. Piłsudskiego 67",
+      "price": "See website",
+      "mapsUrl": "https://maps.google.com/?q=Teatr+Muzyczny+Capitol+Wrocław",
+      "url": "https://www.teatr-capitol.pl"
+    },
+    {
+      "title": "Late Night Jazz",
+      "category": "Music",
+      "time": "21:00",
+      "place": "Prosto Z Mostu",
       "price": "Free entry",
-      "mapsUrl": "https://maps.google.com/?q=Piwnica+Świdnicka+Wrocław"
-    },
-    {
-      "title": "Open Air Cinema",
-      "category": "Film",
-      "time": "21:30",
-      "place": "Wyspa Słodowa",
-      "price": "Free",
-      "mapsUrl": "https://maps.google.com/?q=Wyspa+Słodowa+Wrocław"
-    },
-    {
-      "title": "Street Food Festival",
-      "category": "Food",
-      "time": "12:00",
-      "place": "Plac Solny",
-      "price": "Free entry",
-      "mapsUrl": "https://maps.google.com/?q=Plac+Solny+Wrocław"
-    },
-    {
-      "title": "Photography Exhibition",
-      "category": "Art",
-      "time": "10:00",
-      "place": "Galeria Sztuki, ul. Świdnicka 2",
-      "price": "10 PLN",
-      "mapsUrl": "https://maps.google.com/?q=Galeria+Sztuki+Wrocław"
+      "mapsUrl": "https://maps.google.com/?q=Prosto+Z+Mostu+Wrocław",
+      "url": "https://wroclaw.pl/go"
     }
   ]
 }
