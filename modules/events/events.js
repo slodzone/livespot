@@ -2,46 +2,10 @@ export const id = "events";
 export const title = "Today's Events";
 export const icon = "🎉";
 
-const EVENTBRITE_TOKEN = "PEPUYIUJO3VSZTWKIPD3";
-
 async function fetchEvents(city) {
-  try {
-    const now      = new Date();
-    const tomorrow = new Date(now.getTime() + 86400000);
-    const start    = now.toISOString().split(".")[0] + "Z";
-    const end      = tomorrow.toISOString().split(".")[0] + "Z";
-
-    const url = "https://www.eventbriteapi.com/v3/events/search/"
-      + "?token=" + EVENTBRITE_TOKEN
-      + "&location.address=" + encodeURIComponent(city.name + ", Poland")
-      + "&location.within=10km"
-      + "&start_date.range_start=" + start
-      + "&start_date.range_end=" + end
-      + "&expand=venue"
-      + "&sort_by=date";
-
-    const res   = await fetch(url);
-    const data  = await res.json();
-    const items = data.events || [];
-
-    return items.map(function(e) {
-      return {
-        title:   e.name ? e.name.text : "Untitled",
-        time:    e.start && e.start.local ? e.start.local.slice(11, 16) : "TBD",
-        place:   e.venue ? e.venue.name : "Venue TBD",
-        price:   e.is_free ? "Free" : "See website",
-        mapsUrl: e.venue
-          ? "https://maps.google.com/?q=" + encodeURIComponent(e.venue.name + " " + city.name)
-          : "https://maps.google.com/?q=" + encodeURIComponent(city.name),
-        url: e.url || null,
-      };
-    });
-
-  } catch (err) {
-    const res  = await fetch("/modules/events/events.mock.json");
-    const data = await res.json();
-    return data[city.id] || [];
-  }
+  const res  = await fetch("/modules/events/events.mock.json");
+  const data = await res.json();
+  return data[city.id] || [];
 }
 
 function timeToMinutes(t) {
@@ -76,7 +40,7 @@ export async function getSummary(city) {
   const upcoming = upcomingEvents(events);
 
   if (upcoming.length === 0) {
-    return { headline: "Nothing left today", subline: "Check back tomorrow" };
+    return { headline: "Nothing left tonight", subline: "Check wroclaw.pl/go tomorrow" };
   }
 
   const next = upcoming[0];
@@ -85,7 +49,7 @@ export async function getSummary(city) {
   return {
     headline: next.title,
     subline:  next.time + " · " + formatCountdown(min),
-    tagline:  upcoming.length > 1 ? "+" + (upcoming.length - 1) + " more today" : undefined,
+    tagline:  upcoming.length > 1 ? "+" + (upcoming.length - 1) + " more tonight" : undefined,
   };
 }
 
@@ -96,7 +60,7 @@ export async function getDetails(city) {
   });
 
   if (all.length === 0) {
-    return { body: "<p>No events found in Wroclaw today.</p>" };
+    return { body: "<p>No events today. Check <a href='https://wroclaw.pl/go' target='_blank' style='color:var(--accent);'>wroclaw.pl/go</a> for live listings.</p>" };
   }
 
   var rows = all.map(function(e) {
@@ -109,19 +73,26 @@ export async function getDetails(city) {
       : "";
 
     const ticketLink = e.url
-      ? "<a href='" + e.url + "' target='_blank' rel='noopener' style='font-size:0.8rem;color:var(--accent);text-decoration:none;'>Tickets</a>"
+      ? "<a href='" + e.url + "' target='_blank' rel='noopener' style='font-size:0.8rem;color:var(--accent);text-decoration:none;'>🎟 Tickets</a>"
       : "";
 
     return "<div style='padding:14px 0;border-bottom:1px solid var(--border);display:flex;flex-direction:column;gap:4px;opacity:" + (isPast ? "0.4" : "1") + ";'>"
       + "<p style='font-weight:600;color:var(--text-primary);'>" + e.title + badge + "</p>"
-      + "<p style='font-size:0.85rem;'>" + e.time + " · " + e.place + "</p>"
+      + "<p style='font-size:0.85rem;'>" + e.category + " · " + e.time + "</p>"
+      + "<p style='font-size:0.8rem;color:var(--text-secondary);'>" + e.place + "</p>"
       + "<p style='font-size:0.8rem;'>" + e.price + "</p>"
       + "<div style='display:flex;gap:12px;margin-top:4px;'>"
-      + "<a href='" + e.mapsUrl + "' target='_blank' rel='noopener' style='font-size:0.8rem;color:var(--accent);text-decoration:none;'>Maps</a>"
+      + "<a href='" + e.mapsUrl + "' target='_blank' rel='noopener' style='font-size:0.8rem;color:var(--accent);text-decoration:none;'>📍 Maps</a>"
       + ticketLink
       + "</div>"
       + "</div>";
   }).join("");
 
-  return { body: "<div>" + rows + "</div>" };
+  var footer = "<div style='padding-top:16px;'>"
+    + "<a href='https://wroclaw.pl/go' target='_blank' rel='noopener' "
+    + "style='display:block;padding:12px 20px;border:1px solid var(--border);border-radius:12px;text-decoration:none;font-weight:600;font-size:0.9rem;text-align:center;color:var(--text-primary);'>"
+    + "📅 More events on wroclaw.pl/go</a>"
+    + "</div>";
+
+  return { body: "<div>" + rows + footer + "</div>" };
 }
