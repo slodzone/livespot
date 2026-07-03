@@ -3,23 +3,23 @@
     {
       "name": "Papa Bar",
       "deal": "All cocktails 30 PLN",
-      "hours": "17:00–20:00",
-      "days": "Sun–Thu",
+      "hours": "17:00-20:00",
+      "days": "Sun-Thu",
       "address": "ul. Rzeźnicza 32/33, Wrocław",
       "mapsUrl": "https://maps.google.com/?q=Papa+Bar+Wrocław+Rzeźnicza"
     },
     {
       "name": "Texico",
       "deal": "Burger + fries + Cola — 27.99 PLN",
-      "hours": "15:00–18:00",
-      "days": "Tue–Fri",
+      "hours": "15:00-18:00",
+      "days": "Tue-Fri",
       "address": "ul. Świdnicka 19, Wrocław",
       "mapsUrl": "https://maps.google.com/?q=Texico+Wrocław"
     },
     {
       "name": "Czupito",
       "deal": "2 shots for the price of 1",
-      "hours": "16:00–20:00",
+      "hours": "16:00-20:00",
       "days": "Tue only",
       "address": "ul. Ruska 51, Wrocław",
       "mapsUrl": "https://maps.google.com/?q=Czupito+Wrocław+Ruska"
@@ -27,15 +27,15 @@
     {
       "name": "Przybij Piątaka",
       "deal": "Daily drink promotions",
-      "hours": "15:00–18:00",
+      "hours": "15:00-18:00",
       "days": "Daily",
       "address": "Rynek 13, Wrocław",
       "mapsUrl": "https://maps.google.com/?q=Przybij+Piątaka+Wrocław+Rynek"
     },
     {
       "name": "Kontynuacja",
-      "deal": "Best craft beer selection in the city",
-      "hours": "15:00–23:00",
+      "deal": "Best craft beer in the city",
+      "hours": "15:00-23:00",
       "days": "Daily",
       "address": "ul. Ofiar Oświęcimskich 17, Wrocław",
       "mapsUrl": "https://maps.google.com/?q=Kontynuacja+Wrocław"
