@@ -1,4 +1,3 @@
-// modules/mpk/mpk.js
 export const id = "mpk";
 export const title = "Public Transport";
 export const icon = "🚋";
@@ -6,25 +5,27 @@ export const icon = "🚋";
 export async function getSummary(city) {
   return {
     headline: "Check live status",
-    subline: "Tap for current disruptions",
+    subline: "Tap for departures & delays",
   };
 }
 
 export async function getDetails(city) {
-  const body = `
-    <div style="display:flex;flex-direction:column;gap:16px;">
-      <p style="color:var(--text-secondary);">
-        MPK Wrocław does not provide a public API. Tap below for live info directly from the source.
-      </p>
-      <a href="https://mpk.wroc.pl/strefa-pasazera/komunikaty" target="_blank" rel="noopener"
-         style="display:block;padding:14px 20px;background:var(--accent);color:#fff;border-radius:12px;text-decoration:none;font-weight:600;font-size:0.95rem;text-align:center;">
-        🚋 Live MPK Disruptions
-      </a>
-      <a href="https://www.wroclaw.pl/rozklady-jazdy" target="_blank" rel="noopener"
-         style="display:block;padding:14px 20px;border:1px solid var(--border);border-radius:12px;text-decoration:none;font-weight:600;font-size:0.95rem;text-align:center;color:var(--text-primary);">
-        🗺 Timetables & Routes
-      </a>
-    </div>
-  `;
-  return { body };
+  const body = "<div style='display:flex;flex-direction:column;gap:12px;'>"
+    + "<p style='color:var(--text-secondary);font-size:0.9rem;'>Real-time departures and disruptions via the apps Wroclaw locals actually use:</p>"
+
+    + "<a href='https://jakdojade.pl/wroclaw' target='_blank' rel='noopener'"
+    + " style='display:block;padding:14px 20px;background:var(--accent);color:#fff;border-radius:12px;text-decoration:none;font-weight:600;font-size:0.95rem;text-align:center;'>"
+    + "🚋 jakdojade.pl — Live Departures</a>"
+
+    + "<a href='https://www.google.com/maps/dir/?api=1&travelmode=transit&destination=Wroclaw' target='_blank' rel='noopener'"
+    + " style='display:block;padding:14px 20px;border:1px solid var(--border);border-radius:12px;text-decoration:none;font-weight:600;font-size:0.95rem;text-align:center;color:var(--text-primary);'>"
+    + "🗺 Google Maps Transit</a>"
+
+    + "<a href='https://www.urban.pl/rozklady-jazdy/wroclaw' target='_blank' rel='noopener'"
+    + " style='display:block;padding:14px 20px;border:1px solid var(--border);border-radius:12px;text-decoration:none;font-weight:600;font-size:0.95rem;text-align:center;color:var(--text-primary);'>"
+    + "📅 Timetables — urban.pl</a>"
+
+    + "</div>";
+
+  return { body: body };
 }
