@@ -1,60 +1,158 @@
 {
   "wroclaw": [
     {
-      "name": "Wyspa Słodowa",
+      "name": "Wyspa Slodowa",
       "tagline": "Best riverside chill spot in the city",
       "category": "Park",
-      "tip": "Bring a blanket and grab a beer from the nearby kiosk",
-      "bestTime": "Late afternoon",
-      "mapsUrl": "https://maps.google.com/?q=Wyspa+Słodowa+Wrocław"
+      "tip": "Grab a beer from the kiosk and find a spot by the water",
+      "indoor": false,
+      "bestPeriod": "afternoon-evening",
+      "season": "summer",
+      "vibe": "social",
+      "mapsUrl": "https://maps.google.com/?q=Wyspa+Slodowa+Wroclaw"
     },
     {
-      "name": "Ostrów Tumski",
-      "tagline": "Wrocław's oldest island — magical at dusk",
+      "name": "Ostrow Tumski",
+      "tagline": "Wroclaw oldest island, magical at dusk",
       "category": "Historic",
-      "tip": "Walk across the Cathedral Bridge at sunset for the best view",
-      "bestTime": "Evening",
-      "mapsUrl": "https://maps.google.com/?q=Ostrów+Tumski+Wrocław"
+      "tip": "Walk across Cathedral Bridge at sunset for the best view",
+      "indoor": false,
+      "bestPeriod": "evening",
+      "season": "any",
+      "vibe": "romantic",
+      "mapsUrl": "https://maps.google.com/?q=Ostrow+Tumski+Wroclaw"
     },
     {
-      "name": "Most Grunwaldzki",
-      "tagline": "Iconic suspension bridge with panoramic views",
-      "category": "Viewpoint",
-      "tip": "Stand in the middle for the full city skyline",
-      "bestTime": "Golden hour",
-      "mapsUrl": "https://maps.google.com/?q=Most+Grunwaldzki+Wrocław"
+      "name": "Rynek Underground Museum",
+      "tagline": "Medieval Wroclaw beneath your feet",
+      "category": "Museum",
+      "tip": "Buy tickets online to skip the queue",
+      "indoor": true,
+      "bestPeriod": "morning-afternoon",
+      "season": "any",
+      "vibe": "cultural",
+      "mapsUrl": "https://maps.google.com/?q=Muzeum+Miejskie+Wroclaw"
     },
     {
       "name": "Hala Targowa",
       "tagline": "Historic market hall full of local life",
       "category": "Market",
       "tip": "Try the local bread and cheese stalls near the entrance",
-      "bestTime": "Morning",
-      "mapsUrl": "https://maps.google.com/?q=Hala+Targowa+Wrocław"
+      "indoor": true,
+      "bestPeriod": "morning",
+      "season": "any",
+      "vibe": "local",
+      "mapsUrl": "https://maps.google.com/?q=Hala+Targowa+Wroclaw"
+    },
+    {
+      "name": "Most Grunwaldzki",
+      "tagline": "Iconic suspension bridge with panoramic views",
+      "category": "Viewpoint",
+      "tip": "Stand in the middle for the full city skyline",
+      "indoor": false,
+      "bestPeriod": "afternoon-evening",
+      "season": "any",
+      "vibe": "scenic",
+      "mapsUrl": "https://maps.google.com/?q=Most+Grunwaldzki+Wroclaw"
+    },
+    {
+      "name": "Panorama Raclawicka",
+      "tagline": "One of Polands most impressive historical paintings",
+      "category": "Museum",
+      "tip": "Book tickets in advance on weekends",
+      "indoor": true,
+      "bestPeriod": "morning-afternoon",
+      "season": "any",
+      "vibe": "cultural",
+      "mapsUrl": "https://maps.google.com/?q=Panorama+Raclawicka+Wroclaw"
+    },
+    {
+      "name": "Park Szczytnicki",
+      "tagline": "Wroclaw largest park, perfect for a long walk",
+      "category": "Park",
+      "tip": "Visit the Japanese Garden inside the park",
+      "indoor": false,
+      "bestPeriod": "morning-afternoon",
+      "season": "summer",
+      "vibe": "relaxed",
+      "mapsUrl": "https://maps.google.com/?q=Park+Szczytnicki+Wroclaw"
+    },
+    {
+      "name": "Hydropolis",
+      "tagline": "Interactive water museum unlike anything else",
+      "category": "Museum",
+      "tip": "Great for a rainy afternoon, allow 2 hours",
+      "indoor": true,
+      "bestPeriod": "afternoon",
+      "season": "any",
+      "vibe": "fun",
+      "mapsUrl": "https://maps.google.com/?q=Hydropolis+Wroclaw"
     },
     {
       "name": "Plac Nowy Targ",
       "tagline": "Quiet square away from the tourist crowds",
       "category": "Square",
-      "tip": "Great coffee at the café on the north corner",
-      "bestTime": "Anytime",
-      "mapsUrl": "https://maps.google.com/?q=Plac+Nowy+Targ+Wrocław"
+      "tip": "Great coffee at the cafe on the north corner",
+      "indoor": false,
+      "bestPeriod": "morning-afternoon",
+      "season": "any",
+      "vibe": "relaxed",
+      "mapsUrl": "https://maps.google.com/?q=Plac+Nowy+Targ+Wroclaw"
     },
     {
-      "name": "Góra Donas",
-      "tagline": "Hidden hilltop with a view over the whole city",
+      "name": "Sky Tower Viewpoint",
+      "tagline": "Best view over the entire city",
       "category": "Viewpoint",
-      "tip": "Short walk from the tram stop — worth every step",
-      "bestTime": "Sunset",
-      "mapsUrl": "https://maps.google.com/?q=Góra+Donas+Wrocław"
+      "tip": "Go at sunset for incredible golden hour photos",
+      "indoor": true,
+      "bestPeriod": "afternoon-evening",
+      "season": "any",
+      "vibe": "scenic",
+      "mapsUrl": "https://maps.google.com/?q=Sky+Tower+Wroclaw"
     },
     {
-      "name": "Rynek Underground Museum",
-      "tagline": "Medieval Wrocław beneath your feet",
-      "category": "Museum",
-      "tip": "Buy tickets online to skip the queue",
-      "bestTime": "Rainy day",
-      "mapsUrl": "https://maps.google.com/?q=Muzeum+Miejskie+Wrocław"
+      "name": "Forma Plynna Beach Bar",
+      "tagline": "Chill beach bar in the heart of the city",
+      "category": "Bar",
+      "tip": "Best spot for a cold drink on a hot afternoon",
+      "indoor": false,
+      "bestPeriod": "afternoon-evening",
+      "season": "summer",
+      "vibe": "social",
+      "mapsUrl": "https://maps.google.com/?q=Forma+Plynna+Wroclaw"
+    },
+    {
+      "name": "Kino Nowe Horyzonty",
+      "tagline": "Best arthouse cinema in the city",
+      "category": "Cinema",
+      "tip": "Check the schedule for evening screenings",
+      "indoor": true,
+      "bestPeriod": "evening",
+      "season": "any",
+      "vibe": "cultural",
+      "mapsUrl": "https://maps.google.com/?q=Kino+Nowe+Horyzonty+Wroclaw"
+    },
+    {
+      "name": "Przedmiescie",
+      "tagline": "Wroclaw hippest neighbourhood to wander",
+      "category": "Neighbourhood",
+      "tip": "Walk ul. Swidnicka to ul. Ruska for the best bars and cafes",
+      "indoor": false,
+      "bestPeriod": "afternoon-evening",
+      "season": "any",
+      "vibe": "social",
+      "mapsUrl": "https://maps.google.com/?q=Przedmiescie+Wroclaw"
+    },
+    {
+      "name": "Ogrod Botaniczny",
+      "tagline": "Hidden botanical garden in the city centre",
+      "category": "Park",
+      "tip": "Best in spring and summer when everything is in bloom",
+      "indoor": false,
+      "bestPeriod": "morning-afternoon",
+      "season": "summer",
+      "vibe": "relaxed",
+      "mapsUrl": "https://maps.google.com/?q=Ogrod+Botaniczny+Wroclaw"
     }
   ]
 }
